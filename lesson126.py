@@ -13,4 +13,5 @@ print(sorted(t, reverse=True))
 print(sorted(s, reverse=True))
 print('-'*80)
 
-
+#print(?sorted)
+#print(iterable=l, reverse=True)
