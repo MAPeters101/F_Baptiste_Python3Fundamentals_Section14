@@ -16,4 +16,10 @@ print(round(1235, -1))
 print(round(1245, -1))
 print('-'*80)
 
+print(round(0.125, 2))
+print(round(0.325, 2))
+print(format(0.325, '.20f'))
+
+
+
 
