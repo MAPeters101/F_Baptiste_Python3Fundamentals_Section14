@@ -15,3 +15,15 @@ print('-'*80)
 
 #print(?sorted)
 #print(iterable=l, reverse=True)
+print('-'*80)
+
+print(ord('a'))
+print(ord('A'))
+print('A' < 'a')
+print(ord('A') < ord('a'))
+print(sorted(('a', 'b', 'c')))
+print(sorted('azbycz'))
+print(sorted('aAbBxX'))
+print(ord('X'))
+print('-'*80)
+
