@@ -27,3 +27,8 @@ print(sorted('aAbBxX'))
 print(ord('X'))
 print('-'*80)
 
+print(sorted(['Zebra', 'apple']))
+print(sorted(['Zebra', 'apple', 'atom']))
+print('-'*80)
+
+
