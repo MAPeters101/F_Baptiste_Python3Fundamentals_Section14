@@ -77,6 +77,12 @@ for row in data:
     sub_dict = dict(zip(schema[1:], row[1:]))
     data_dict[widget_name] = sub_dict
 print(data_dict)
+print('-'*80)
 
+data_dict = {}
+for row in data:
+    data_dict[row[0]] = dict(zip(schema[1:], row[1:]))
+print(data_dict)
+print('-'*80)
 
 
