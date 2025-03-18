@@ -31,4 +31,12 @@ print(sorted(['Zebra', 'apple']))
 print(sorted(['Zebra', 'apple', 'atom']))
 print('-'*80)
 
+l = [1,10,2,9,3,8]
+sorted_ascending = sorted(l)
+print(sorted_ascending)
+print(min(l))
+print()
+print(sorted([]))
+#print(min([]))
+print(min([], default=0))
 
