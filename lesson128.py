@@ -85,4 +85,18 @@ for row in data:
 print(data_dict)
 print('-'*80)
 
+data_dict = {row[0]: dict(zip(schema[1:], row[1:])) for row in data}
+print(data_dict)
+print('-'*80)
+
+schema = ('widget', 'manufacturer', 'num_sold', 'unit_price', 'discount')
+data = [
+    ('item1', 'manuf-1', 10, 100.0, 0.2),
+    ('item2', 'manuf-2', 5, 25.0, 0),
+    ('item3', 'manuf-3', 100, 0.25, 0.025)
+]
+data_dict = {row[0]: dict(zip(schema[1:], row[1:])) for row in data}          
+print(data_dict)                                                              
+print('-'*80)                                                                 
+
 
