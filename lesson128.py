@@ -51,8 +51,25 @@ d = {}
 for item in data:
     d[item[0]] = {'num_sold': item[1], 'unit_price': item[2]}
 print(d)
+print('-'*80)
 
 
+schema = ('widget', 'num_sold', 'unit_price')
+for row in data:
+    print(list(zip(schema, row)))
+print()
+
+for row in data:
+    widget_name = row[0]
+    remaining = zip(schema[1:], row[1:])
+    print(widget_name, list(remaining))
+print()
+
+for row in data:
+    widget_name = row[0]
+    sub_dict = dict(zip(schema[1:], row[1:]))
+    print(widget_name, sub_dict)
+print('-'*80)
 
 
 
