@@ -10,5 +10,14 @@ print(next(result))
 #print(next(result))
 print('-'*80)
 
+print(list(zip(l,t)))
+combo = list(zip(l,t))
+print(combo)
+print(combo)
+
+
+
+
+
 
 
