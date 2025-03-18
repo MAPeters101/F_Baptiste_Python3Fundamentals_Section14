@@ -99,4 +99,5 @@ data_dict = {row[0]: dict(zip(schema[1:], row[1:])) for row in data}
 print(data_dict)                                                              
 print('-'*80)                                                                 
 
-
+from pprint import pprint
+pprint(data_dict)
